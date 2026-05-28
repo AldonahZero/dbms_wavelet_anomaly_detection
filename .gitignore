@@ -13,6 +13,8 @@ __pycache__/
 # Local environments and large experiment data.
 .venv/
 venv/
+src/generate_synthetic_fuzzing_logs.py
+src/run_synthetic_experiments.py
 data/raw/*
 data/processed/*
 data/splits/*
@@ -27,4 +29,3 @@ outputs/models/*
 !outputs/figures/.gitkeep
 !outputs/metrics/.gitkeep
 !outputs/models/.gitkeep
-
