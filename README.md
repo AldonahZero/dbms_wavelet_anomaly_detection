@@ -68,18 +68,9 @@ bug_id
 +-- README.md
 ```
 
-## Generate Synthetic Logs
+## Experiment Data
 
-For pipeline debugging before real SQLeek/DBMS fuzzing logs are available:
-
-```bash
-python3 src/generate_synthetic_fuzzing_logs.py \
-  --rows 120000 \
-  --dbms sqlite postgresql mysql \
-  --runs-per-dbms 4
-```
-
-This creates a 120,000-row CSV with three DBMS profiles under `data/raw/`. Generated data, summaries, model outputs, and non-README Markdown notes are intentionally ignored by Git.
+Synthetic logs, experiment scripts, metrics, and non-README Markdown notes are kept on the lab server as local artifacts and are intentionally ignored by Git. The repository only keeps the project scaffold and documentation needed to describe the method.
 
 ## Notes
 
