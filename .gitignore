@@ -1,0 +1,30 @@
+# Ignore all Markdown files except the project README.
+*.md
+!README.md
+!readme.md
+
+# Python/cache/runtime artifacts.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and large experiment data.
+.venv/
+venv/
+data/raw/*
+data/processed/*
+data/splits/*
+outputs/figures/*
+outputs/metrics/*
+outputs/models/*
+
+# Keep placeholder files so empty directories are versioned.
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/splits/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/metrics/.gitkeep
+!outputs/models/.gitkeep
+
