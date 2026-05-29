@@ -1,9 +1,4 @@
 # DBMS Wavelet Anomaly Detection
-
-Course-project scaffold for detecting abnormal runtime behavior in DBMS fuzzing using wavelet time-frequency features and machine-learning models.
-
-## Topic
-
 基于小波时频特征与机器学习的DBMS模糊测试运行时异常检测研究
 
 ## Goal
@@ -67,11 +62,3 @@ bug_id
 +-- src/
 +-- README.md
 ```
-
-## Experiment Data
-
-Synthetic logs, experiment scripts, metrics, and non-README Markdown notes are kept on the lab server as local artifacts and are intentionally ignored by Git. The repository only keeps the project scaffold and documentation needed to describe the method.
-
-## Notes
-
-The expected metrics currently used in the paper draft are placeholders for structure checking only. They must be replaced by real results after running the pipeline on actual SQLeek or DBMS fuzzing logs.
