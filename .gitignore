@@ -18,7 +18,6 @@ src/run_synthetic_experiments.py
 data/raw/*
 data/processed/*
 data/splits/*
-outputs/figures/*
 outputs/metrics/*
 outputs/models/*
 

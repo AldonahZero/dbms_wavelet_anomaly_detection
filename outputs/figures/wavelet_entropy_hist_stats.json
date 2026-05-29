@@ -1,0 +1,8 @@
+{
+  "normal_count": 5836,
+  "anomaly_count": 1628,
+  "normal_mean": 1.1813716438578497,
+  "normal_std": 0.055682476981351425,
+  "anomaly_mean": 1.1405297252030246,
+  "anomaly_std": 0.09867946608110788
+}
